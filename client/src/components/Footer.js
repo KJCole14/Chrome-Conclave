@@ -1,4 +1,5 @@
 import React from 'react';
+//imprts SM logos from "assets folder"
 import Facebook from '../assets/Facebooklogo.png'
 import Instagram from '../assets/Instagramlogo.png'
 import TikTok from '../assets/TikToklogo.png'
@@ -9,7 +10,8 @@ export default function Footer() {
   return (
     <footer>
       <a href="https://www.facebook.com/"
-        ><img
+      ><img
+          // calls the imported pictures and puts them where they need to go.
           src={Facebook}
           className="footerlogo"
           alt="facebook logo"
